@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>random-jokes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Quote App</title>
+  <style>
+    /* Добавьте стили */
+  </style>
 </head>
 <body>
-    <H1>Hello world!</H1>
+    <div id="quote-container">
+        <select id="language-selector">
+          <option value="en">English</option>
+          <option value="ru">Русский</option>
+        
+        </select>
+    <div id="quote-container">
+        <img id="quote-image" src="" alt="Quote Image">
+        <p id="author">автор цитаты</p>
+        <p id="quote">Цитата появится здесь</p>
+        
+        <button id="change-quote">Сменить цитату</button>
+      </div>
+  <footer>
+    <div class="footer">
+        <a href="https://app.rs.school/"><img src="./img/rs-logo.svg" alt="rsschool"></a>
+       
+        <a href="https://github.com/berstix"><img src="./img/github-logo.svg" alt="github" id="github"></a>
+    </div>
+  </footer>
+  <script src="./index.js">
+    
+  </script>
 </body>
 </html>

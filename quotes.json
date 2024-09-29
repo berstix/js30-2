@@ -1,0 +1,34 @@
+[
+    {
+      "en": "Nothing shows a man's character more than what he laughs at.",
+      "ru": "Ничто так не выдает человека, как то, над чем он смеётся.",
+      "authorRu": "Иоганн Вольфганг фон Гёте ",
+      "authorEn": "Johann Wolfgang von Goethe", 
+       "image": "./img/image1.png",
+       "bgColor": "#e3f4ec"
+    },
+    {
+      "en": "If you want something you've never had, you must be willing to do something you've never done.",
+      "ru": "Если вы хотите иметь то, что никогда не имели, вам придётся делать то, что никогда не делали.",
+      "authorRu": "Коко Шанель", 
+      "authorEn": "Coco Chanel",
+      "image": "./img/image2.jpg",
+      "bgColor": "#v4c3e3"
+    },
+    {
+      "en": "Theory is when you know everything and nothing works; practice is when everything works and nobody knows why. Here we combine theory with practice: nothing works and nobody knows why.",
+      "ru": "Теория — это когда все известно, но ничего не работает. Практика — это когда все работает, но никто не знает почему. Мы же объединяем теорию и практику: ничего не работает... и никто не знает почему!",
+      "authorRu": "Альберт Эйнштейн", 
+      "authorEn": "Albert Einstein",
+      "image": "./img/image3.jpg",
+      "bgColor": "#f4f3b6"
+    },
+    {
+      "en": "Someone is missing one woman, and he switches to the fifth, tenth. And the other does not have enough life to love the only one.",
+      "ru": "Кому-то не хватает одной женщины, и он переключается на пятую, десятую. А другому не хватает жизни, чтобы любить одну-единственную.",
+      "authorRu":"Константин Хабенский",
+      "authorEn": "Konstantin Khabensky", 
+      "image": "./img/image4.jpg",
+      "bgColor": "#d5c3b6"
+    }
+  ]
