@@ -1,37 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поиск изображений</title>
   <link rel="stylesheet" href="./style.css">
-  <title>Quote App</title>
-  <style>
-    /* Добавьте стили */
-  </style>
 </head>
 <body>
-    <div id="quote-container">
-        <select id="language-selector">
-          <option value="en">English</option>
-          <option value="ru">Русский</option>
-        
-        </select>
-    <div id="quote-container">
-        <img id="quote-image" src="" alt="Quote Image">
-        <p id="author">автор цитаты</p>
-        <p id="quote">Цитата появится здесь</p>
-        
-        <button id="change-quote">Сменить цитату</button>
-      </div>
-  <footer>
-    <div class="footer">
-        <a href="https://app.rs.school/"><img src="./img/rs-logo.svg" alt="rsschool"></a>
-       
-        <a href="https://github.com/berstix"><img src="./img/github-logo.svg" alt="github" id="github"></a>
-    </div>
+  <header>
+    <h1>Поиск изображений</h1>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Введите запрос для поиска" autocomplete="off">
+      <button type="reset" id="clear-btn">×</button>
+    </form>
+  </header>
+  
+  <main>
+    <section id="image-gallery"></section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://app.rs.school/"><img src="./img/rs-logo.svg" alt="rsschool"></a>
+    <p>2024</p>
+    <a href="https://github.com/berstix"><img src="./img/github-logo.svg" alt="github" id="github"></a>
   </footer>
-  <script src="./index.js">
-    
-  </script>
+
+  <script src="index.js"></script>
 </body>
 </html>
