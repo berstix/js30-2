@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>random-jokes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поиск изображений</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+  <header>
+    <h1>Поиск изображений</h1>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Введите запрос для поиска" autocomplete="off">
+      <button type="reset" id="clear-btn">×</button>
+    </form>
+  </header>
+  
+  <main>
+    <section id="image-gallery"></section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://app.rs.school/"><img src="./img/rs-logo.svg" alt="rsschool"></a>
+    <p>2024</p>
+    <a href="https://github.com/berstix"><img src="./img/github-logo.svg" alt="github" id="github"></a>
+  </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>
